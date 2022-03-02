@@ -41,12 +41,6 @@ def main():
     print("No match")
     return
 
-    for i, dna in enumerate(output):
-        for j in range(len(database)):
-            if output[dna] != int(database[i][dna]):
-                break
-
-
 def longest_match(sequence, subsequence):
     """Returns length of longest run of subsequence in sequence."""
 
